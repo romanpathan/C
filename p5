@@ -1,0 +1,20 @@
+// simpal statment 
+//eligiblity for vote 
+//roman pathan 
+//26/09/2022
+#include <stdio.h>
+
+int main() { 
+int age;
+printf("enter your age: \n");
+scanf("%d",&age);
+if(age>18);
+{
+    
+printf("you are aligilibal for vote :\n");
+}
+
+
+printf("thank you");
+
+}
