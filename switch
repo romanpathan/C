@@ -1,0 +1,40 @@
+// simpal calculator
+//write a program to add,subtract,multiply,& divisontwo number acceptad from user by using swith 
+#include <stdio.h>
+
+int main(){ 
+int N1,N2,add,sub,mul,div,option;
+ printf("enter first no.N1:");
+ scanf("%d",&N1);
+ printf("enter second no.N2,=");
+ scanf("%d",&N2);
+ printf("menu/n");
+ printf("1:addition\n");
+ printf("2:subtraction\n");
+ printf("3:multiply\n");
+ printf("4:divide\n");
+ printf("enter any one option:(1=4)");
+ scanf("%d",&option);
+
+switch(option)
+{
+    case 1:
+    add=N1+N2;
+    printf("addition of N1&N2 is %d",add);
+    break;
+    case 2:
+    sub=N1-N2;
+    printf("subtraction of N1&N2 is %d",sub);
+    break;
+    case 3:
+    mul=N1*N2;
+    printf("multplictin of N1&N2 is %d",mul);
+    break;
+    case 4:
+    div=N1/N2;
+    printf("divided of N1&N2 is %d",div);
+    break;
+    default:
+    printf("invalid option");
+}
+}
