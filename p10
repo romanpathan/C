@@ -1,0 +1,23 @@
+// 10 a find fibonacci series for given number
+//fibonacci series 0 1 1 2 3 5 8 13 .....
+//date :11/10/2022
+//roman pathan
+#include <stdio.h>
+
+int main()
+{
+int n;
+printf("enter number : ");
+scanf("%d",&n);
+int a=0;
+int b=1;
+int c=0;
+
+for(int i=1; i <=n; i++)
+  {
+    printf("%d ",a );
+    c=a+b;
+    a=b;
+    b=c;
+  }
+}
